@@ -36,7 +36,7 @@ Solve by substitution:
 
 $T(n)= 3T(n/3) + n^5$
 
-$3(3T(n/9) + n^5) + n^5$
+$3(3T(n/9) + n^5/3) + n^5$
       
 $9T(n/9) + 2n^5$
       
