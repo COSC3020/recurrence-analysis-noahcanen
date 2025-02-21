@@ -46,7 +46,7 @@ $27T(n/27) + 3n^5$
  
 $3^iT(n/3^i) + i*n^5$
 
-$for i = lg n$
+for i = lg n
 
 $nT(1) + n^5*lg n = n+ n^5*lgn ∈ Θ(n^5)$
 
