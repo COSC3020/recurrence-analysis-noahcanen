@@ -29,7 +29,7 @@ function mystery(n) {
 
 Recurrence relation:
 
-$T(n)=1 if n ≤ 1 or 3T(n/3) + n^5  if n > 2$
+T(n)=1 if n ≤ 1 or 3T(n/3) + $n^5$  if n > 1
 
 Solve by substitution:
 
@@ -48,7 +48,7 @@ $3^iT(n/3^i) + i*n^5$
 
 for i = lg n
 
-$nT(1) + n^5*lg n = n+ n^5*lgn ∈ Θ(n^5)$
+nT(1) + $n^5$ * lg n = n + $n^5$ * lg n ∈ O($n^5$)
 
       
 Add your answer to this markdown file. [This
