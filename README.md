@@ -27,6 +27,34 @@ function mystery(n) {
 }
 ```
 
+Recurrence relation:
+
+T(n)=1 if n ≤ 1 or 3T(n/3) + $n^5$  if n > 1
+
+Solve by substitution:
+
+
+$T(n)= 3T(n/3) + n^5$
+
+$3(3T(n/9) + n^5/3) + n^5$
+      
+$9T(n/9) + 2n^5$
+      
+$27T(n/27) + 3n^5$
+
+ ...
+ 
+$3^iT(n/3^i) + i*n^5$
+
+for i = lg n
+
+nT(1) + $n^5$ * lg n = n + $n^5$ * lg n ∈ O($n^5$)
+
+      
 Add your answer to this markdown file. [This
 page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+For this assignment, I was able to do it entirely on my own.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
