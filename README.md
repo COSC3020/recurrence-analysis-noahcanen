@@ -36,11 +36,15 @@ Solve by substitution:
 
 $T(n)= 3T(n/3) + n^5$
 
-$3(3T(n/9) + n^5/3) + n^5$
+3(3T(n/9) + (n/3)^5) + n^5$
       
-$9T(n/9) + 2n^5$
-      
-$27T(n/27) + 3n^5$
+9T(n/9) + 3(n/3)^5 + n^5
+
+9T(n/9) + 3(n/3)^5 + n^5
+
+9(3T(n/27) + (n/9)^5) + 3(n/3)^5 + n^5
+
+27t(n/27) + 9(n/9)^5 + 3(n/3)^5 + n^5
 
  ...
  
@@ -59,6 +63,3 @@ For this assignment, I was able to do it entirely on my own.
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
 
-$\frac{n^5}{3}$.
-
-$\left(\frac{n}{3}\right)^5$
