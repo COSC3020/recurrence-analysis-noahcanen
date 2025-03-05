@@ -44,17 +44,19 @@ $T(n)= 3T(n/3) + n^5$
 
 27T(n/27) + 9(n/9)^5 + 3(n/3)^5 + n^5
 
-27( 3T(n/3) + n^5) + 9(n/9)^5 + 3(n/3)^5 + n^5
+27( 3T(n/81) + n^5) + 9(n/9)^5 + 3(n/3)^5 + n^5
 
 81T(n/81) + 27(n/81)^5 + 9(n/9)^5 + 3(n/3)^5 + n^5
 
  ...
  
-3^iT(n/3^i) + 3^(i-1)(n/3^(i-1)) + 3^(i-2)(n/3^(i-2)) + ...+ 3^(i-(i-1))(n/3^(i-(i-1))) + $n^5$
+3^iT(n/3^i) + 3^(i-1)(n/3^(i-1))^5 + 3^(i-2)(n/3^(i-2))^5 + ...+ 3^(i-(i-1))(n/3^(i-(i-1)))^5 + $n^5$
 
 for i = lg n
 
-$nT(1) + n * (i-1) + n^5$ = $n + n * (i-1) + n^5$  ∈ O($n^5$)
+3^iT(n/3^i) + n^5 \sum_{k=o}^lg n-1 + $n^5$
+
+$nT(1) + n * (i-1)^5 + n^5$ = $n + n * (i-1)^5 + n^5$  ∈ O($n^5$)
 
       
 Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
