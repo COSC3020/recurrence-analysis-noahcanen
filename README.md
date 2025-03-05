@@ -56,7 +56,7 @@ $T(n)= 3T(n/3) + n^5$
 
 for i = lg n
 
-$nT(1) + n * (i-1) + n^5$ = n + n * (i-1) + n^5$  ∈ O($n^5$)
+$nT(1) + n * (i-1) + n^5$ = $n + n * (i-1) + n^5$  ∈ O($n^5$)
 
       
 Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
