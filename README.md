@@ -54,9 +54,9 @@ $T(n)= 3T(n/3) + n^5$
 
 for i = lg n
 
-$3^iT(n/3^i) + n^5 \sum_{k=o}^l^g ^n^-^1 + n^5$
+$3^iT(n/3^i) + n^5 \sum_{k=o}^{lg n-1}(1/3^4)^k $
 
-$nT(1) + n * (i-1)^5 + n^5$ = $n + n * (i-1)^5 + n^5$  ∈ O($n^5$)
+$nT(1) + n^5 = ∈ O(n^5)$
 
       
 Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
