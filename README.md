@@ -62,7 +62,7 @@ $nT(1) + n^5 = ∈ O(n^5)$
 Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
 
-For this assignment, I was able to do it entirely on my own.
+For this assignment, I was able to do it entirely on my own with help from the TA.
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
 
