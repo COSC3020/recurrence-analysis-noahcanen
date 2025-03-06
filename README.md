@@ -56,7 +56,7 @@ $3^iT(n/3^i) + n^5 \sum_{k=o}^{i-1}(1/3^4)^k $
 
 for i = lg n
 
-$nT(1) + n^5 \sum_{k=o}^{lg n-1}(1/3^4)^k $ = $nT(1) + n^5 ∈ O(n^5)$
+$nT(1) + n^5 \sum_{k=o}^{lg n-1}(1/3^4)^k$ = $nT(1) + n^5 ∈ O(n^5)$
 
       
 Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
