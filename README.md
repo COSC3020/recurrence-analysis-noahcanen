@@ -58,7 +58,7 @@ for i = lg n
 
 $nT(1) + n^5 * \sum_{k=o}^{lg n-1}(1/3^4)^k$ 
 
-Convert \sum_{k=o}^{lg n-1}(1/3^4)^k into a geometric series 
+Convert $\sum_{k=o}^{lg n-1}(1/3^4)^k$ into a geometric series 
 
 $nT(1) + n^5 * ((1 - ( 1/3^4 )^{lg n})/(1-(1/3^4))) ∈ O(n^5)$
 
