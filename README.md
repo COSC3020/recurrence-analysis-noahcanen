@@ -56,9 +56,9 @@ $3^iT(n/3^i) + n^5 * \sum_{k=o}^{i-1}(1/3^4)^k $
 
 for i = lg n
 
-if n > 3 then $\sum_{k=o}^{lg n-1}(1/3^4)^k = 1.0125$
 
-$nT(1) + n^5 * \sum_{k=o}^{lg n-1}(1/3^4)^k$ = $nT(1) + n^5 * 1.0125 ∈ O(n^5)$
+
+$nT(1) + n^5 * \sum_{k=o}^{lg n-1}(1/3^4)^k$ = $nT(1) + n^5 * ((1 - ( 1/3^4 )^{lg n})/(1-(1/3^4))) ∈ O(n^5)$
 
       
 Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
