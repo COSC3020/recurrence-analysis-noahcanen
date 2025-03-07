@@ -27,6 +27,46 @@ function mystery(n) {
 }
 ```
 
-Add your answer to this markdown file. [This
-page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
+Recurrence relation:
+
+T(n)=1 if n ≤ 1 or 3T(n/3) + $n^5$  if n > 1
+
+Solve by substitution:
+
+
+$T(n)= 3T(n/3) + n^5$
+
+3(3T(n/9) + (n/3)^5) + n^5$
+      
+9T(n/9) + 3(n/3)^5 + n^5
+
+9(3T(n/27) + (n/9)^5) + 3(n/3)^5 + n^5
+
+27T(n/27) + 9(n/9)^5 + 3(n/3)^5 + n^5
+
+27( 3T(n/81) + n^5) + 9(n/9)^5 + 3(n/3)^5 + n^5
+
+81T(n/81) + 27(n/81)^5 + 9(n/9)^5 + 3(n/3)^5 + n^5
+
+ ...
+ 
+3^iT(n/3^i) + 3^(i-1)(n/3^(i-1))^5 + 3^(i-2)(n/3^(i-2))^5 + ...+ 3^(i-(i-1))(n/3^(i-(i-1)))^5 + $n^5$
+
+$3^iT(n/3^i) + n^5 * \sum_{k=o}^{i-1}(1/3^4)^k $
+
+for i = lg n
+
+$nT(1) + n^5 * \sum_{k=o}^{lg n-1}(1/3^4)^k$ 
+
+Convert $\sum_{k=o}^{lg n-1}(1/3^4)^k$ into a geometric series 
+
+$nT(1) + n^5 * (1/(1-(1/3^4))) ∈ O(n^5)$
+
+      
+Add your answer to this markdown file. [This page](https://docs.github.com/en/get-started/writing-on-github/working-with-advanced-formatting/writing-mathematical-expressions)
 might help with the notation for mathematical expressions.
+
+For this assignment, I was able to do it entirely on my own with help from the TA.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
+
